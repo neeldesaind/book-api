@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSDBModelStoreContainer" CdmEntityContainer="CSDBEntities">
+    <EntitySetMapping Name="TBLBooks">
+      <EntityTypeMapping TypeName="CSDBModel.TBLBook">
+        <MappingFragment StoreEntitySet="TBLBooks">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
