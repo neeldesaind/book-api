@@ -53,4 +53,3 @@
  - Adjust the API URLs in the frontend JavaScript code as needed based on your C# API setup.
 
 **Video:**
-https://github.com/user-attachments/assets/f7274991-baec-4cd6-97b3-f03912fddc4e
